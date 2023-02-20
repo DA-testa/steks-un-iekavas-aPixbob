@@ -31,18 +31,18 @@ def find_mismatch(text):
         return "Success"
 
 def main():
-    firstText = input()
-    if firstText == "I":
+#     firstText = input()
+#     if firstText == "I":
 
         text = input()
         mismatch = find_mismatch(text)
         print(mismatch)
 
-    elif firstText == "F":
-        filename = input()
-        text = open(filename)
-        mismatch = find_mismatch(text)
-        print(mismatch)
+#     elif firstText == "F":
+#         filename = input()
+#         text = open(filename)
+#         mismatch = find_mismatch(text)
+#         print(mismatch)
 
 
 if __name__ == "__main__":
